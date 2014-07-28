@@ -1,269 +1,84 @@
 [{
-    "text": "What type of degree do you have/are you doing?",
+    "text": "What colour is the sea?",
     "answers": [
         {
-            "text": "Vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Science-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Blue",
+            "response": "Right answer",
             "score": 1
         },
         {
-            "text": "Business",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Red",
+            "response": "Wrong answer",
             "score": 0
         },
         {
-            "text": "Non-vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Pink",
+            "response": "Wrong answer",
             "score": 0
         },
         {
-            "text": "Arts-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Black",
+            "response": "Wrong answer",
+            "score": 0
+        },
+        {
+            "text": "Grey",
+            "response": "Wrong answer",
             "score": 0
         }
     ]
 },
 {
-    "text": "What leisure activities were/are you involved in at university?",
+    "text": "What is the only Animal Where the Male Becomes Pregnant and Gives Birth?",
     "answers": [
         {
-            "text": "Vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Science-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Seahorse",
+            "response": "Right answer",
             "score": 1
         },
         {
-            "text": "Business",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Lion",
+            "response": "Wrong answer",
             "score": 0
         },
         {
-            "text": "Non-vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Dog",
+            "response": "Wrong answer",
             "score": 0
         },
         {
-            "text": "Arts-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Bunny",
+            "response": "Wrong answer",
+            "score": 0
+        },
+        {
+            "text": "Goat",
+            "response": "Wrong answer",
             "score": 0
         }
     ]
 },
 {
-    "text": "What work experience do you have?",
+    "text": "Grand Central Terminal, Park Avenue, New York is the world's?",
     "answers": [
         {
-            "text": "Vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Science-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Largest railway station",
+            "response": "Right answer",
             "score": 1
         },
         {
-            "text": "Business",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Highest railway station",
+            "response": "Wrong answer",
             "score": 0
         },
         {
-            "text": "Non-vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "Longest railway station",
+            "response": "Wrong answer",
             "score": 0
         },
         {
-            "text": "Arts-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        }
-    ]
-},
-{
-    "text": "Why do you want to work at Aldi?",
-    "answers": [
-        {
-            "text": "Vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Science-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 1
-        },
-        {
-            "text": "Business",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Non-vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Arts-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        }
-    ]
-},
-{
-    "text": "Which of the following describes you?",
-    "answers": [
-        {
-            "text": "Vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Science-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 1
-        },
-        {
-            "text": "Business",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Non-vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Arts-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        }
-    ]
-},
-{
-    "text": "Examine the following situations and see how you would respond: Local competition is growing with both new store openings and aggressive price activity from competitors. What's your next move?",
-    "answers": [
-        {
-            "text": "Vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Science-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 1
-        },
-        {
-            "text": "Business",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Non-vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Arts-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        }
-    ]
-},
-{
-    "text": "Examine the following situations and see how you would respond: A Store Manager in your area is experiencing problems with staff turnover. How do you solve this?",
-    "answers": [
-        {
-            "text": "Vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Science-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 1
-        },
-        {
-            "text": "Business",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Non-vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Arts-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        }
-    ]
-},
-{
-    "text": "Examine the following situations and see how you would respond: One of your stores is missing efficiency targets and you think that you know some of the factors contributing to this. Do you:",
-    "answers": [
-        {
-            "text": "Vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Science-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 1
-        },
-        {
-            "text": "Business",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Non-vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Arts-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        }
-    ]
-},
-{
-    "text": "Examine the following situations and see how you would respond: You've completed your training after 11 months and you're given an area of four stores to run. Where do you start? Do you:",
-    "answers": [
-        {
-            "text": "Vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Science-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 1
-        },
-        {
-            "text": "Business",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Non-vocational",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
-            "score": 0
-        },
-        {
-            "text": "Arts-based",
-            "response": "A strong academic pedigree is essential and will stand you in very good stead.However, your degree discipline is not the most important consideration. What's more important is that you did well in it and that you gained something from studying the subject of your choice. Make sure you tell us how you think your degree has equipped you for this role.",
+            "text": "None of the above",
+            "response": "Wrong answer",
             "score": 0
         }
     ]

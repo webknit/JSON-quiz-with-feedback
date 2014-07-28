@@ -9,27 +9,56 @@ Webknit.Quiz = function() {
 	var response = $('#response');
 	var startQuiz = $('#start-quiz');
 	var nextQuestion = $('#next-question');
+	
+	var score = $('#score');
 
 	var questionNumber = 0;
 	var questionString;
 	var userScore = 0;
 
 	function init() {
+	
+		loadQuestions()
 		
-		loadQuestions();
 		startQuiz.click(getQuestion);
 		quizQuestionsLi.click(answerQuestion);
 		nextQuestion.click(getQuestion);
 
 	}
+	
+	function endQuiz() {
+	
+		response.empty().html("Quiz over. You scored " + userScore + '/' + questionNumber);
+		
+		quizQuestions.append('<li>If youre ready to start the quiz then click the "start quiz" button below</li>');
+	
+		questionNumber = 0;
+		userScore = 0;
+		
+		nextQuestion.hide();
+		question.hide();
+		quizQuestions.hide();
+		score.hide();
+		
+		startQuiz.show();
+	
+	}
 
 	function answerQuestion(answer) {
-
-		alert(userScore);
 
 		response.show().empty().html(questionString[questionNumber].answers[answer].response);
 
 		nextQuestion.show();
+		
+		questionNumber = questionNumber + 1;
+		
+		score.html(userScore + '/' + questionNumber);
+		
+		if (questionNumber == questionString.length) {
+		
+			endQuiz();
+			
+		}
 
 	}
 
@@ -39,21 +68,19 @@ Webknit.Quiz = function() {
 		nextQuestion.hide();
 		response.hide();
 
-		question.empty().html(questionString[questionNumber].text);
+		question.show().empty().html(questionString[questionNumber].text);
 
 		quizQuestions.empty()
 
-		quizQuestions.addClass('quiz-questions-answer');
+		quizQuestions.show().addClass('quiz-questions-answer');
 
 		var i;
-		for(i = 0; i < 5; i++)
+		for(i = 0; i < questionString[questionNumber].answers.length; i++)
 		{
 			
 			quizQuestions.append('<li data-score="'+ questionString[questionNumber].answers[i].score + '" data-number="' + i + '">' + questionString[questionNumber].answers[i].text + '</li>');
 							
 		}
-
-		questionNumber = questionNumber + 1;
 
 		$(document).unbind('click').on('click', '.quiz-questions-answer li', function(){
 
@@ -70,23 +97,11 @@ Webknit.Quiz = function() {
 
 	}
 
-	function bindIt()
-	{
-		$('.self-evaluation-questions li').on('click tap', chooseAnswer);
-	}
-	
-	function unbindIt()
-	{
-		$('.self-evaluation-questions li').off();
-	}
-
 	function loadQuestions() {
 
 		$.getJSON("questions.json", function(json) {
 		    
 			questionString = json;
-
-			console.log(json);
 
 		});
 
