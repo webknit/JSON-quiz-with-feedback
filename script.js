@@ -1,14 +1,102 @@
-/* - BASE HTML TEMPLATE
-------------------------------------------------- 
-	Description: JS Scripts
-	Author:Shane Prendergast
-	Author URL:http://www.webknit.co.uk
-	Template URL:http://base.webknit.co.uk/
-*/
-
 var Webknit = Webknit || {};
 
-Webknit.Quiz = function()
+Webknit.Quiz = function() {
+
+	var question = $('.question');
+	var quizQuestions = $('.quiz-questions');
+	var quizQuestionsLi = $('.quiz-questions li');
+
+	var response = $('#response');
+	var startQuiz = $('#start-quiz');
+	var nextQuestion = $('#next-question');
+
+	var questionNumber = 0;
+	var questionString;
+	var userScore = 0;
+
+	function init() {
+		
+		loadQuestions();
+		startQuiz.click(getQuestion);
+		quizQuestionsLi.click(answerQuestion);
+		nextQuestion.click(getQuestion);
+
+	}
+
+	function answerQuestion(answer) {
+
+		alert(userScore);
+
+		response.show().empty().html(questionString[questionNumber].answers[answer].response);
+
+		nextQuestion.show();
+
+	}
+
+	function getQuestion() {
+
+		startQuiz.hide();
+		nextQuestion.hide();
+		response.hide();
+
+		question.empty().html(questionString[questionNumber].text);
+
+		quizQuestions.empty()
+
+		quizQuestions.addClass('quiz-questions-answer');
+
+		var i;
+		for(i = 0; i < 5; i++)
+		{
+			
+			quizQuestions.append('<li data-score="'+ questionString[questionNumber].answers[i].score + '" data-number="' + i + '">' + questionString[questionNumber].answers[i].text + '</li>');
+							
+		}
+
+		questionNumber = questionNumber + 1;
+
+		$(document).unbind('click').on('click', '.quiz-questions-answer li', function(){
+
+			quizQuestions.removeClass('quiz-questions-answer');
+		
+			var answer = $(this).data('number');
+			var scoreAmount = $(this).data('score');
+			var score = parseInt(scoreAmount)
+			userScore = userScore + score;
+
+			answerQuestion(answer);
+
+		});
+
+	}
+
+	function bindIt()
+	{
+		$('.self-evaluation-questions li').on('click tap', chooseAnswer);
+	}
+	
+	function unbindIt()
+	{
+		$('.self-evaluation-questions li').off();
+	}
+
+	function loadQuestions() {
+
+		$.getJSON("questions.json", function(json) {
+		    
+			questionString = json;
+
+			console.log(json);
+
+		});
+
+	}
+
+	init();
+
+}
+
+Webknit.Quizer = function()
 {
 	// Buttons
 	var _button = {
@@ -357,8 +445,8 @@ Webknit.Quiz = function()
 };
 
 // ON DOC READY
-$(function()
-{	
+$(function() {
+
 	new Webknit.Quiz();
 	
 });
